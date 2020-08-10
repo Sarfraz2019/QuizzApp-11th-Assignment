@@ -1,0 +1,77 @@
+body{
+    background-color:  rgba(122, 148, 122, 0.815)!important;
+}
+.container{
+    
+  margin-top: 100px;
+  background-color: rgba(122, 148, 122, 0.829);
+  border-radius: 100px  20px  100px 20px;
+}
+.active{
+    background-color: rgb(122, 148, 122);
+    color: white;
+}
+.optionElement:hover{
+    background-color: rgba(122, 148, 122, 0.575);
+    color: white;
+}
+/* .optionElement:active{
+    background-color: blue;
+    color: white;
+} */
+table {
+    border: 2px solid orangered;
+    text-align: center;
+    align-items: center;
+}
+
+table tr td {
+    padding: 25px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border: 2px solid orangered;  
+}
+.optionElement{
+    margin: 0px;
+    padding: 10px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(57deg, black, gray);
+}
+.buttong{
+    margin-left: 300px;
+    margin-top: 100px;
+
+}
+.buttong:hover{
+    color: red;
+    background-color: black;
+}
+a:hover{
+    color: red;
+    background-color: black;
+}
+.btn{
+    background-color: rgba(122, 148, 122, 0.829) !important;
+}
+.btn:hover{
+    background-color: rgb(122, 148, 122) !important;
+}
+
+
+@media only screen and (max-width:320px) {
+    .end {
+        padding: 15px;
+    }
+    table tr td {
+        font-size: 15px;
+        padding: 5px;
+    }
+}

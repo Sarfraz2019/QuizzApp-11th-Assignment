@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+   
+</head>
+
+<body onload="showQuestion(0)">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"> </div>
+                <div class="col-md-10">
+                    <div class="card">
+                        <div class="card-header">
+                            <div id="Header" class="d-inline-block">Score: <span id="score">0</span></div>
+                            <div id="timer" class="d-inline-block float-right">2:00</div>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title pb-3" id="qustionElement">Q1. Question goes here</h5>
+                            <p class="card-text optionElement p-2" onclick="putActiveClass(this)">option 1 goes here</p>
+                            <p class="card-text optionElement p-2" onclick="putActiveClass(this)">option 2 goes here</p>
+                            <p class="card-text optionElement p-2" onclick="putActiveClass(this)">option 3 goes here</p>
+                            <p class="card-text optionElement p-2" onclick="putActiveClass(this)">option 3 goes here</p>
+
+                        </div>
+                        <div class="card-footer text-muted text-right">
+                            <a href="#" class="btn btn-primary" id="nextBtn" onclick="nextQuestion()">Next Questions</a>
+                        </div>
+                    </div>
+                </div>
+               
+           
+             <div class="col-md-1"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
